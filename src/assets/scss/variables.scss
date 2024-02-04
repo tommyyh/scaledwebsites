@@ -1,0 +1,19 @@
+$primary: #fff;
+$second: #16163F;
+$accent1: #6159FF;
+$accent2: #25DAFF;
+$accent2: #F3F2FF;
+
+$font-family: 'Poppins', sans-serif;
+
+$padding: 1.1rem;
+$width: 1268px;
+$height: 646px;
+
+@mixin centeredLayout {
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+  width: 100%;
+}
